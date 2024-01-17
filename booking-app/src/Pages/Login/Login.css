@@ -1,0 +1,13 @@
+#login-form {
+  width: 30vw;
+}
+.form-group-l {
+  margin-bottom: 15px;
+  width: 25vw;
+}
+.form-group-l input {
+  width: 100%;
+}
+#login-page {
+  padding-top: 21vh;
+}

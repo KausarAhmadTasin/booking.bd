@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Train+One&display=swap");
+.full-screen-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #262626;
+  color: #fffef1;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.reg-btn,
+.login-btn {
+  height: 1.2rem;
+  align-items: center;
+}
+.logo h3 {
+  /* text-decoration: none; */
+  color: #fffef1;
+}
+.profile {
+  color: #fff;
+  font-size: 1.6rem;
+}

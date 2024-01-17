@@ -1,0 +1,50 @@
+.profileDropDown {
+  padding: 4rem 0;
+  position: absolute;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 48vh;
+}
+.profileDropDownInner {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.profileDropDown h3 {
+  margin-top: 1rem;
+}
+.profileDropDown p {
+  margin-top: -0.6rem;
+}
+.profileDropDown img {
+  width: 5rem;
+  border-radius: 50%;
+}
+.profileDropDown button {
+  margin-top: 1rem;
+  background: linear-gradient(to bottom right, #4aaf63, #7ae093);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #7ae093;
+  }
+}

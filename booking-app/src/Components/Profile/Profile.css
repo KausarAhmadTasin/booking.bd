@@ -1,0 +1,137 @@
+/* Profile.css */
+
+.section {
+  padding: 5rem 5rem;
+  background-color: #eaeaea;
+}
+
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  justify-content: center;
+}
+
+.profile-right {
+  text-align: center;
+  max-width: 40vw;
+  min-width: 35vw;
+  height: 70vh;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.profile-name {
+  margin-top: 1rem;
+  display: flex;
+  /* gap: 3rem; */
+  justify-content: space-between;
+}
+.about-avatar img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.about-text {
+  margin-top: 1.5rem;
+}
+
+/* .profile-left {
+  width: 40vw;
+} */
+
+.data-row {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 70vh;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.single-info p {
+  font-size: 16px;
+  color: #555;
+}
+.single-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS */
+.edit-btn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #7cc4f5, #50b9ff);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: box-shadow 0.3s;
+}
+.info-edit-btn {
+  background-color: #ebe7e7;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 0.6rem;
+  outline: 0;
+  font-weight: 600;
+  padding: 0 20px;
+  border-style: none;
+  margin-bottom: 1rem;
+}
+hr {
+  margin: 0.5rem 0;
+}
+.edit-btn:hover {
+  box-shadow: #7cc4f5 0 3px 8px;
+}
+
+#edit-modal {
+  position: absolute;
+  top: 8%;
+  right: 14%;
+  background-color: #fff;
+  padding: 3.6rem;
+}
+.modal-close {
+  font-size: 1.4rem;
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
+.edit-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .profile-right {
+    margin-bottom: 20px;
+  }
+}
