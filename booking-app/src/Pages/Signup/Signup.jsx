@@ -17,9 +17,6 @@ const Signup = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    // e.preventDefault();
-    // console.log(data);
-    // delete data.confirmPassword;
     const findUserByEmail = await axios.get(
       `http://localhost:9000/api/users?email=${data.email}`
     );
